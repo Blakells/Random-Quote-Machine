@@ -18,7 +18,7 @@ const QuoteMachine = (props) => (
     </CardContent>
     <React.Fragment>
       <CardActions>
-        <Button size ='small' onClick= {props.assignNewQuoteIndex} id='new-quote'>Next Quote</Button>
+        <Button size ='small' onClick= {props.assignNewQuoteIndex} id='new-quote' style={{color:'white', backgroundColor: 'grey', borderRadius: '50vh' , cursor: 'pointer'}}>Next Quote</Button>
         <IconButton
         id='tweet-quote'
         target='_blank'
